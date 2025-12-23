@@ -2,6 +2,8 @@
 
 >One might still like to ask: “How does it work? What is the machinery behind the law?” No one has found any machinery behind the law. No one can “explain” any more than we have just “explained.” No one will give you any deeper representation of the situation. We have no ideas about a more basic mechanism from which these results can be deduced. -*Richard P. Feynman*
 
+>But, if you can’t explain it simply, you don’t understand it well enough. -*Albert Einstein*
+
 $$
 \begin{align*}
 \rho&= \frac{1}{i2\pi}\psi^* \psi' \\
