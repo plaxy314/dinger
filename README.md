@@ -4,7 +4,6 @@
 
 $$
 \begin{align*}
-\rho&= \frac{1}{i2\pi}\psi^* \psi' \\
 \psi&= e^{i 2\pi \cdot z} \\
 z&= \frac{S}{h} = \frac{t}{\tau} = \frac{\pm x}{\lambda} \\
 h&= E \tau \le \Delta E \Delta t  \\
@@ -17,8 +16,10 @@ $$
 
 $$
 \begin{align*}
-\psi(\mathbf{x_{out}}, t) = \sum_{p \in \mathcal{P}} c_p \psi(\mathbf{x_{in}}, t_0) \\
-P(x, t) = \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}} \psi(x',t') \mathrm{d} t' \mathrm{d} x'
+\psi(\mathbf{x_{out}}, t) = \sum_{p \in \mathcal{Paths}} c_p \psi(\mathbf{x_{in}}, t_0) \\
+\rho= \frac{1}{i2\pi}\psi^* \psi' \\
+P(x, t) = \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}} \rho(s,\tau) \mathrm{d} s \mathrm{d} \tau \\
+\mathcal{O}(x,t) = \hat{O} \cdot P(x,t)  \\quad \text{where} \\quad \hat{O} \in \\{m, \vec{f}, E=\frac{h}{\tau}, p=\frac{h}{\lambda}, \cdots \\} 
 \end{align*}
 $$
 
