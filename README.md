@@ -17,7 +17,7 @@ $$
 $$
 \begin{align*}
 \psi(\mathbf{x_{out}}, t) = \sum_{p \in \mathcal{Paths}} c_p \psi(\mathbf{x_{in}}, t_0) \\
-\rho= \frac{1}{i2\pi}\psi^* \psi' \\
+\rho(x,t)= \frac{1}{i2\pi} \psi(x,t)^* \psi(x,t)' \\
 P(x, t) = \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}} \rho(s,\tau) \mathrm{d} s \mathrm{d} \tau \\
 \mathcal{O}(x,t) = \hat{O} \cdot P(x,t)  \\quad \text{where} \\quad \hat{O} \in \\{m, \vec{f}, E=\frac{h}{\tau}, p=\frac{h}{\lambda}, \cdots \\} 
 \end{align*}
