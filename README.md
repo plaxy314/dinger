@@ -15,6 +15,13 @@ m&=\frac{E}{c^2}=\frac{h\tau}{\lambda^2} \\
 \end{align*}
 $$
 
+$$
+\begin{align*}
+\psi(\mathbf{x_{out}}, t) = \sum_{p \in \mathcal{P}} c_p \psi(\mathbf{x_{in}}, t_0) \\
+P(x, t) = \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}} \psi(x',t') \mathrm{d} t' \mathrm{d} x'
+\end{align*}
+$$
+
 >One might still like to ask: “How does it work? What is the machinery behind the law?” No one has found any machinery behind the law. No one can “explain” any more than we have just “explained.” No one will give you any deeper representation of the situation. We have no ideas about a more basic mechanism from which these results can be deduced. -*Richard P. Feynman*
 
 >But, if you can’t explain it simply, you don’t understand it well enough. -*Albert Einstein*
