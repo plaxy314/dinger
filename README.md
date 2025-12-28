@@ -1,6 +1,6 @@
 ## 朝花夕拾 - Dawn Blossoms Plucked at Dusk
 
-> So what happened to the old theory that I fell in love with as a youth? Well, I would say it’s become an old lady, that has very little attractive left in her and the young today will not have their hearts pound anymore when they look at her. But, we can say the best we can for any old woman, that she has been a very good mother and she has given birth to some very good children. -*Richard P. Feynman*
+> *Richard P. Feynman:* So what happened to the old theory that I fell in love with as a youth? Well, I would say it’s become an old lady, that has very little attractive left in her and the young today will not have their hearts pound anymore when they look at her. But, we can say the best we can for any old woman, that she has been a very good mother and she has given birth to some very good children.
 
 $$
 \begin{align*}
@@ -23,9 +23,13 @@ P(x, t) = \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \int_{t-\frac{\Delt
 \end{align*}
 $$
 
->One might still like to ask: “How does it work? What is the machinery behind the law?” No one has found any machinery behind the law. No one can “explain” any more than we have just “explained.” No one will give you any deeper representation of the situation. We have no ideas about a more basic mechanism from which these results can be deduced. -*Richard P. Feynman*
+>*Richard P. Feynman:* One might still like to ask: “How does it work? What is the machinery behind the law?” No one has found any machinery behind the law. No one can “explain” any more than we have just “explained.” No one will give you any deeper representation of the situation. We have no ideas about a more basic mechanism from which these results can be deduced.
 
->But, if you can’t explain it simply, you don’t understand it well enough. -*Albert Einstein*
+>*Albert Einstein:* But, if you can’t explain it simply, you don’t understand it well enough.
 
->Behind it all is surely an idea so simple, so beautiful, that when we grasp it - in a decade, a century, or a millennium - we will all say to each other, how could it have been otherwise? How could we have been so stupid?  - *John Archibald Wheeler*
+>*Richard P. Feynman:* I think I can safely say that nobody understands quantum mechanics.
+
+>*John Archibald Wheeler:* Behind it all is surely an idea so simple, so beautiful, that when we grasp it - in a decade, a century, or a millennium - we will all say to each other, how could it have been otherwise? How could we have been so stupid?
+
+>*Richard P. Feynman:* Sure, physics is like sex. It may give some practical results, but that's not why we do it.
 
