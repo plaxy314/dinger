@@ -12,11 +12,11 @@ recognizing complex patterns, generating coherent text, and performing tasks
 once considered the exclusive domain of human cognition[^deep-learning].
 Despite their impressive performance, these systems differ fundamentally from
 biological intelligence in their reliance on large training datasets, lack of
-grounding in the physical world, and absence of intrinsic goals or agency[^ai-foundational-issues].
+grounding in the physical world, and absence of intrinsic goals or agency.
 
-By contrast, biological systems are self-organizing and intelligence emerges
-spontaneously without central planning or explicit training. A striking
-example can be seen through the collective behavior of ants. 
+By contrast, biological systems are self-organizing, with intelligence emerging
+spontaneously without central planning or explicit training. A striking example
+is the collective behavior of ants. 
 
 {% include embed/youtube.html id='3-98z00A4S8' %}
 
@@ -36,8 +36,8 @@ the continuous transport of food across the gap.
 
 {% include embed/youtube.html id='zDHp-jV8p4g' %}
 
-Even when a curved path is already laid out for them [^puzzle-2], the ants do
-not settle. They continue to explore, seeking the optimal solution that
+Even when a curved path is already laid out for them, the ants do not settle.
+They continue to explore, seeking the optimal solution that
 minimizes the total effort—measured by the number of steps all ants—to carry
 the food from the source to the nest.
 
@@ -48,37 +48,33 @@ performance, indicating that the intelligence does not reside in the brain
 of any single ant, but rather emerges from their continuous interactions with
 one another and with the environment.
 
-The piano-movers puzzle [^puzzle-1] resembles a minimal neural network: three chambers
-correspond to three neurons. Each chambers exists in one of two states:
-active when it contains a load and inactive when it is empty. A chamber
+The piano-movers puzzle [^puzzle-1] resembles a minimal neural network,
+with three chambers corresponding to three neurons. Each chambers exists in one 
+of two states: active when it contains a load and inactive when it is empty. A chamber
 becomes active through the coordinated actions of many ants, analogous to
 how the synchronized activations of ion channels generate action potentials
 in a neuron. The narrow openings connecting chambers function like synapses,
 regulating signal (load) transmission from one chambers to the next. The
 leftmost chamber serves as input layer, while the rightmost as output layer.
 
-Now imagine scaling the puzzle up: First, divide the arena into roughly
+Now imagine scaling the puzzle up. First, divide the arena into roughly
 100 billion microscopic cells, each connecting to 1,000–10,000 neighboring
 cells. Then, replace the ants in each cell with millions of membrane proteins,
 including ion channels and pumps, and neurotransmitter transporters and
 receptors. These molecular machines are in constant motion, continuously
 interacting with their environment and transporting an enormous number of
-ions, neurotransmitters, and signaling molecules in and out of cells.
-This forms a vast signal transduction network, the functional equivalent of
+ions, neurotransmitters, and signaling molecules in and out of cells. This
+forms a vast signal transduction network, functionally analogous to
 the human brain.
 
-The geometric puzzle therefore serves as a good physical model for
-understanding the workings of the brain. Our aim is to uncover the principles
-that govern the system’s dynamics and the mathematics underlying neural
-signal processing.
-
-For a quick overview, see the introductory video *Neural Network Redefined*.
+We aim to uncover the principles governing the system’s
+dynamics and to explain neural computation through the lens of signal
+processing. For a quick overview, see the introductory video
+*Neural Network Redefined*.
 
 {% include embed/youtube.html id='zg7aA3TsuUs' %}
 
 [^deep-learning]: LeCun, Y., Bengio, Y., & Hinton, G. (2015). *Deep learning*. Nature, 521(7553), 436–444. [doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539)
-
-[^ai-foundational-issues]: Mumuni, A., & Mumuni, F. (2025). *Large language models for artificial general intelligence (AGI): A survey of foundational principles and approaches*. [arXiv:2501.03151](https://doi.org/10.48550/arXiv.2501.03151)
 
 [^puzzle-1]: Dreyer, T., Haluts, A., Korman, A., Gov, N., Fonio, E., & Feinerman, O. (2025). *Comparing cooperative geometric puzzle solving in ants versus humans*. PNAS, 122(1), e2414274121. [doi.org/10.1073/pnas.2414274121](https://doi.org/10.1073/pnas.2414274121)
 

@@ -20,12 +20,12 @@ I was terrible at mathematics and unlikely to make a career in physics.
 I turned instead to biology and computer science, and eventually became
 a software engineer at a small search company.
 
-During the COVID-19 lockdown, life felt suddenly fragile. The beauty about
-life is that everyone is given a finite amount of time and that we have to
-decide how to spend it. Scarcity bring clarity, stripping away what felt
-incidental and leaving only what mattered. I chose to leave my corporate
-job and return to the simple question that had intrigued me since childhood:
-**How does the universe work?**
+During the COVID-19 lockdown, life suddenly felt fragile, as if any moment
+might be our last. We are all given roughly the same amount of time in this
+world; what matters is how consciously we choose to spend it. A busy life
+is a wasted life. I chose to leave my corporate job and return to the
+simple question that had intrigued me since childhood: *How does the
+universe operate?*
 
 朝花夕拾 may be translated as "Dawn Blossoms Plucked at Dusk". I am grateful
 that I still have time to gather the scattered flowers of my childhood dreams,
