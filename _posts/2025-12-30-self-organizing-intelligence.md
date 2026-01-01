@@ -36,19 +36,11 @@ the continuous transport of food across the gap.
 
 {% include embed/youtube.html id='zDHp-jV8p4g' %}
 
-Even when a curved path is already laid out for them, the ants do not settle.
-They continue to explore, seeking the optimal solution that
-minimizes the total effort—measured by the number of steps all ants—to carry
-the food from the source to the nest.
+Even when a curved path is already laid out for them, the ants do not settle. They continue to explore, seeking the most efficient route that minimizes the total effort of foraging—measured by the number of steps taken by all ants.
 
-These ants exhibit a clear form of intelligence. They collectively develop
-situational awareness and problem-solving capabilities. In the experiment,
-individual ants may be replaced without disrupting the system's overall
-performance, indicating that the intelligence does not reside in the brain
-of any single ant, but rather emerges from their continuous interactions with
-one another and with the environment.
+These ants exhibit a clear form of intelligence. They collectively develop situational awareness and problem-solving capabilities. In the experiment, individual ants may be replaced without disrupting the system's overall performance, indicating that the intelligence does **not** reside in the brain of any single ant, but rather emerges from their continuous interactions with one another and with the environment.
 
-The piano-movers puzzle [^puzzle-1] implements a minimal neural network, where three chambers correspond to three neurons and the narrow openings between chambers function as synapses, allowing signals (loads) to propagate from one chamber to the next. Each chamber exists in one of two states: active when it contains a load, and inactive when it is empty. A chamber becomes active through the coordinated actions of many ants, much like how an action potential is triggered in a biological neuron through the synchronized activities of ion channels. In this neural network, the chamber open to the food serves as the input layer, while the chamber near the nest serves as the output layer.
+The piano-movers puzzle [^puzzle-1] implements a minimal neural network, where three chambers correspond to three neurons and the narrow openings between chambers function as synapses, allowing and action signals (i.e., the transport of a load) to propagate from one chamber to the next. Each chamber exists in one of two states: active when it contains a load, and inactive when it is empty. A chamber becomes active through the coordinated actions of many ants, much like how an action potential is triggered in a biological neuron through the synchronized activities of ion channels. In this neural network, the chamber open to the food serves as the input layer, while the chamber near the nest serves as the output layer.
 
 Now imagine scaling this network up. First, divide the arena into roughly 100 billion microscopic cells, each connected to 1,000–10,000 neighboring cells. Then, replace the ants within each cell with millions of molecular machines—ion channels and pumps, neurotransmitter transporters and receptors, and other membrane proteins. These molecular machines are in constant motion, continuously interacting with their environment and transporting vast numbers of ions, neurotransmitters, and signaling molecules across cell membranes. Together, they form a vast signal-transduction network, comparable in the scale to the human brain.
 
