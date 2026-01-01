@@ -48,29 +48,11 @@ performance, indicating that the intelligence does not reside in the brain
 of any single ant, but rather emerges from their continuous interactions with
 one another and with the environment.
 
-The piano-movers puzzle [^puzzle-1] resembles a minimal neural network,
-with three chambers corresponding to three neurons. Each chambers exists in one 
-of two states: active when it contains a load and inactive when it is empty. A chamber
-becomes active through the coordinated actions of many ants, analogous to
-how the synchronized activations of ion channels generate action potentials
-in a neuron. The narrow openings connecting chambers function like synapses,
-regulating signal (load) transmission from one chambers to the next. The
-leftmost chamber serves as input layer, while the rightmost as output layer.
+The piano-movers puzzle [^puzzle-1] implements a minimal neural network, where three chambers correspond to three neurons and the narrow openings between chambers function as synapses, allowing signals (loads) to propagate from one chamber to the next. Each chamber exists in one of two states: active when it contains a load, and inactive when it is empty. A chamber becomes active through the coordinated actions of many ants, much like how an action potential is triggered in a biological neuron through the synchronized activities of ion channels. In this neural network, the chamber open to the food serves as the input layer, while the chamber near the nest serves as the output layer.
 
-Now imagine scaling the puzzle up. First, divide the arena into roughly
-100 billion microscopic cells, each connecting to 1,000–10,000 neighboring
-cells. Then, replace the ants in each cell with millions of membrane proteins,
-including ion channels and pumps, and neurotransmitter transporters and
-receptors. These molecular machines are in constant motion, continuously
-interacting with their environment and transporting an enormous number of
-ions, neurotransmitters, and signaling molecules in and out of cells. This
-forms a vast signal transduction network, functionally analogous to
-the human brain.
+Now imagine scaling this network up. First, divide the arena into roughly 100 billion microscopic cells, each connected to 1,000–10,000 neighboring cells. Then, replace the ants within each cell with millions of molecular machines—ion channels and pumps, neurotransmitter transporters and receptors, and other membrane proteins. These molecular machines are in constant motion, continuously interacting with their environment and transporting vast numbers of ions, neurotransmitters, and signaling molecules across cell membranes. Together, they form a vast signal-transduction network, comparable in the scale to the human brain.
 
-We aim to uncover the principles governing the system’s
-dynamics and to explain neural computation through the lens of signal
-processing. For a quick overview, see the introductory video
-*Neural Network Redefined*.
+Our goal is to uncover the principles governing the dynamics of such a system and to understand its collective behavior through the lens of signal processing. Before turning to the technical discussion, readers may find it helpful to watch this introductory video, which provides a high-level overview of the ideas to be developed here.
 
 {% include embed/youtube.html id='zg7aA3TsuUs' %}
 
