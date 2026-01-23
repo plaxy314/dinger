@@ -13,7 +13,7 @@ $$
 c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau}.
 $$
 
-A physical trajectory traversed by the agent is therefore parametrized by a single physical quantity $s$, which measures the cumulative action along a given path:
+An action path is therefore parametrized by $s$, the cumulative action along that path:
 
 $$
 x(s) = s \frac{\lambda}{h}, \quad
