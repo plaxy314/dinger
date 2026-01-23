@@ -1,7 +1,7 @@
 ---
 title: Self-Organizing Intelligence
 date: 2025-12-30 10:33:00 -0800
-categories: [Neural Network Redefined]
+categories: [朝花夕拾, Introduction]
 tags: [neural network, quantum mechanics, emergent behavior, artificial intelligence]
 pin: true
 math: true
