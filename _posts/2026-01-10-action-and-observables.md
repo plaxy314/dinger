@@ -30,27 +30,27 @@ $$
 In a homogeneous environment, the speed $c$ is expected to be the same along all ant paths, up to stochastic fluctuations.
 
 ## Action, Energy, and Momentum
-Let $h$ denote the unit action of performing a single ant step. The physical quantity associated with the action $h$ may be defined as
+Let $h$ denote the action of a single ant step. This unit action is physically defined as
 
 $$
 h \equiv \overline{E} \tau \equiv \overline{p} \lambda,
 $$
 
-where $\overline{E}$ denotes the mean energy required to perform such an action, and $\overline{p}$ denotes the mean momentum associated with the step motion.
+where $\overline{E}$ denotes the mean energy required to execute the action, and $\overline{p}$ denotes the mean momentum associated with the step motion.
 
-Under this definition, the mean (or unit) energy and momentum associated with an ant step can be expressed in terms of the fundamental units $h$, $\tau$, and $\lambda$:
+Under this definition, the unit energy and momentum associated with an ant step can be expressed in terms of the fundamental units $h$, $\tau$, and $\lambda$:
 
 $$
  \overline{E} = \frac{h}{\tau} = h f, \quad  \overline{p} = \frac{h}{ \lambda}.
 $$
 
-These relations emphasize that time, length, energy, and momentum are not independent primitives, but observables derived from the temporal and spatial realization of a fundamental unit of action.
+These relations emphasize that energy and momentum are not independent primitives, but observables derived from the temporal and spatial realization of a physical action.
 
-## Scalar and Vector Observables
+## Scalar vs Vector Observables
 
-To account for direction of motion, we introduce signed actions. Let $h^+$denote the action of an ant crossing a fixed reference point in a chosen direction, and $h^-$ the action crossing the same point in the opposite direction.
+To distinguish the direction of motion, we denote by $h^+$ the action of an ant crossing a fixed reference point in a chosen direction, and by $h^-$ the action crossing the same point in the opposite direction.
 
-A composite system containing a pair of opposing actions doubles its energy expenditure:
+A system containing a pair of opposing actions doubles its energy expenditure:
 
 $$
 \begin{aligned}
@@ -76,6 +76,8 @@ $$
 $$
 are unit vectors pointing in opposite directions.
 
-This distinction highlights a fundamental difference between scalar and vector observables. Quantities such as time and energy are scalars: their values increase  monotonically as the system evolves. The cumulative action therefore serves as a natural clock for measuring the system’s evolution.
+This distinction highlights a fundamental difference between scalar and vector observables: Quantities such as time and energy are scalars: their quantities increase monotonically as the system evolves. The cumulative action executed by the system therefore serves as a natural clock for measuring its evolution.
 
-By contrast, vector quantities such as momentum and displacement depend sensitively on the directional organization of individual motions. Coordinated actions reinforce one another, while uncorrelated or oppositely directed actions may partially or completely cancel. This directional dependence enables the emergence of coherent, large-scale spatiotemporal patterns, even when the microscopic motions remain largely stochastic.
+By contrast, vector quantities such as momentum and displacement depend sensitively on the directional organization of individual motions. Coordinated actions reinforce one another, while uncorrelated or oppositely directed actions may partially or completely cancel. The directional nature of vector quantities enables the emergence of coherent, large-scale spatiotemporal patterns, even when the underlying microscopic motions remain largely stochastic.
+
+{% include embed/youtube.html id='kAvtsl4KVYo' %}

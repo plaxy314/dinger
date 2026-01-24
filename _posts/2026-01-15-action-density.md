@@ -7,7 +7,9 @@ pin: false
 math: true
 ---
 
-We define $\rho(x,t)$ as a signed action density per unit spacetime, representing the local rate of action events occurring in the vicinity of $(x,t)$. The expected number of net actions within the unit spacetime region
+We define $\rho(x,t)$ as a signed action density per unit spacetime, representing the local rate of action events occurring in the vicinity of $(x,t)$. 
+
+The expected number of net actions observed within the unit spacetime region
 
 $$
 \left[x-\frac{\lambda}{2},x+\frac{\lambda}{2} \right] \times \left[t-\frac{\tau}{2},t+\frac{\tau}{2} \right]
@@ -19,9 +21,9 @@ $$
 P(x, t) = \int_{t-\frac{\tau}{2}}^{t+\frac{\tau}{2}}  \int_{x-\frac{\lambda}{2}}^{x+\frac{\lambda }{2}} \rho(x', t') \, \mathrm{d}x' \, \mathrm{d}t'.
 $$
 
-Here, $P(x,t) = +1$ if a forward action $h^+$ occurs, $-1$ if a backward action $h^-$ occurs, and $0$ if no action is observed. The sign of $P(x,t)$ encodes the direction of the action, while the magnitude represents the local probability of observing an action event within the unit spacetime. Note that two entities—such as ants or other agents—cannot occupy the same place simultaneously. The exclusion principle ensures the local probablity does not exceed one.
+Here, $P(x,t) = +1$ if a forward action $h^+$ occurs, $-1$ if a backward action $h^-$ occurs, and $0$ if no action is observed. The sign of $P(x,t)$ encodes the direction of the action, while the magnitude represents the local probability of observing a single action event within the unit spacetime. Note that two entities—such as ants or other agents—cannot occupy the same place simultaneously. This exclusion principle ensures the local probablity does not exceed one.
 
-This definition of action density function extends naturally to two- and three-dimensional space, where $x$ represents a position vector. For notational simplicity, we continue to use a single symbol $x$ throughout, with the understanding that it may denote $(x,y)$ in 2D or $(x,y,z)$ in 3D.
+This definition extends naturally to two- and three-dimensional space, where $x$ represents a position vector. For notational simplicity, we continue to use a single symbol $x$ throughout, with the understanding that it may denote $(x,y)$ in 2D or $(x,y,z)$ in 3D.
 
 For a fixed time $\mathbf{t}$, the spatial integral
 
@@ -37,9 +39,9 @@ $$
 P(\mathbf{x}, t) = \int_{t-\frac{\tau}{2}}^{t+\frac{\tau}{2}}  \rho(\mathbf{x}, t') \, \mathrm{d}t'
 $$
 
-yields a discrete action signal through $\mathbf{x}$. Each unit pulse corresponds to a single action. The area of a pulse equals one, with its sign encoding the direction of the action.
+yields a discrete action signal passing through $\mathbf{x}$. Each unit pulse corresponds to an action event. The area of a pulse equals one, with the sign encoding the direction of the action.
 
-Because the actions are signed, similar contributions reinforce one another, whereas uncorrelated or opposing contributions may partially or completely cancel. Integrating the action density $\rho(x,t)$ over a region much larger than the unit spacetime ($\Delta t \gg \tau$ and $\Delta x \gg \lambda$) conveniently computes the net effect of all actions within that region:
+Because the actions are signed, integrating the action density $\rho(x,t)$ over a region much larger than the unit spacetime ($\Delta t \gg \tau$ and $\Delta x \gg \lambda$) conveniently computes the net effect of all actions within that region:
 
 $$
 P(x, t) = \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}}  \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \rho(x', t') \, \mathrm{d}x' \, \mathrm{d}t'.

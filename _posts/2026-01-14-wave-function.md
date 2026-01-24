@@ -7,7 +7,7 @@ pin: false
 math: true
 ---
 
-The execution of the unit action $h$ along a particular path may be represented by a rotating vector that traces the unit circle in the complex plane, using Euler's formula:
+The execution of the unit action $h$ along a given path may be represented by a rotating vector that traces the unit circle in the complex plane, using Euler's formula:
 
 $$
 \psi(\theta) = e^{i \theta} = \cos\theta + i \sin\theta,
@@ -15,7 +15,7 @@ $$
 
 whre $e$ is the base of the natural logarithm and $i$ is the imaginary unit ($i^2=-1$).
 
-As the phase angle $\theta$ increases from $0$ to $+2\pi$, the complex vector $\psi(\theta)$ completes a full counterclockwise revolution. This motion models the execution of the action, denoted $h^+$, along a given path in a chosen direction. Conversely, as $\theta$ decreases from $0$ to $-2\pi$, the vector completes a full rotation in reverse, corresponding the execution of the action in the opposite direction, denoted $h^-$.
+As the phase angle $\theta$ increases from $0$ to $+2\pi$, the complex vector $\psi(\theta)$ completes a full counterclockwise revolution. This motion models the execution of the action, denoted $h^+$, along the path in a chosen direction. Conversely, as $\theta$ decreases from $0$ to $-2\pi$, the vector completes a full rotation in reverse, corresponding the execution of the action in the opposite direction, denoted $h^-$.
 
 In this representation, any periodic physical process can be modeled by a continuously rotating vector using the following identity:
 
@@ -31,19 +31,13 @@ where
 - $t$ is the elapsed time measured in units of the action period $\tau$;
 - $x$ is the length of an action path measured in units of the step length $\lambda$.
 
-Note that no physical quantity—such as the action $S$, time $t$, or position $x$—can be measured with infinite precision. For example, the measured length of an action path depends on the unit of measurement: as the spatial resolution increases, a physical path reveals additional micro-structure, yielding a scale-dependent value. To remove this ambiguity, physical quantities should be expressed in their natural units. For example, the length of a single action step is defined as
+The signed action $S$ accumulated along a path determines the phase of the corresponding action signal. Expressed in units of $h$, this phase takes the form
 
 $$
-x = 1 \lambda.
+\psi(S) = e^{i 2\pi \frac{S}{h}}.
 $$
 
-Expressing the phase $\theta$ in terms of $S$ and $h$ yields a mathematical description of how an action propagates along a specific path
-
-$$
-\psi(S) = e^{i 2\pi \frac{S}{h}},
-$$
-
-where $S$ is a signed quantity counting the cumulative action along the path.
+{% include embed/youtube.html id='lhciU6AqrNM' %}
 
 The temporal evolution of the system can be expressed as
 
@@ -51,32 +45,34 @@ $$
 \psi^{\pm}(t) = e^{\pm i 2\pi \frac{t}{\tau}}.
 $$
 
-Here, the $\pm$ sign represents two possible directions as an action propagates along the path. Since time $t$ always increases monotonically, the unfolding of two opposite actions may be encoded as a pair of signed frequencies,
+The $\pm$ superscript indicates that we need a pair of equations to describe the direction of the underlying actions. Because the time $t$ increases monotonically and carries no intrinsic directionality, opposite orientations must be encoded in the sign of the frequency. This is accomplished by introducing a pair of signed frequencies,
 
 $$
 \psi^{\pm}(t) = e^{i2\pi f^{\pm} t} = e^{i \omega^{\pm} t},
-\label{eq:time-dependent-wave-function}
-
 $$
 
-where $f^{\pm} = \pm \frac{1}{\tau}$ represent a pair of opposite actions and $\omega^{\pm} = 2\pi f$ represents the corresponding angular frequency.
+where $f^{\pm} = \pm \frac{1}{\tau}$ correspond to two opposite directions, and $\omega^{\pm} = 2\pi f$ is the associated angular frequency.
 
-Space, by contrast, is bidirectional. The value of $x$ specifies a relative position along a path, while the sign of $x$ (or of a displacement $\Delta x$) indicates the direction. The spatial evolution of the system is then written as
-
-$$
-\psi^{\pm}(x) = e^{\pm i 2\pi \frac{x}{\lambda}} = e^{\pm i 2\pi k x}, 
-\label{eq:space-dependent-wave-function}
-$$
-
-where the wavenumber $k= \frac{2\pi}{\lambda}$ represents the spatial density of the periodic action.
-
-Combining ths two equations yields the wave function:
+Space, by contrast, is bidirectional. The signs of $x$ (or of a displacement $\Delta x$) naturally represent two opposite directions. The spatial evolution of the system is thus written as
 
 $$
-\psi^{\pm}(x,t) = e^{\pm i 2\pi \cdot z} = e^{i2\pi(f^{\pm} t \pm \frac{x}{\lambda})} = e^{i( \omega^{\pm} t \pm k x)}.
+\psi^{\pm}(x) = e^{\pm i 2\pi \frac{x}{\lambda}} = e^{\pm i 2\pi k x},
 $$
 
-This function satisfies Schrödinger's partial differential equation:
+where the wavenumber $k= \frac{2\pi}{\lambda}$ corresponds to the spatial frequency of the periodic action.
+
+Combining two equations yields the wave function that describes the spacetime evolution of the system:
+
+$$
+\begin{align*}
+
+\psi^{\pm}(x,t) &= e^{\pm i 2\pi \cdot z}  \\
+&= e^{i2\pi(f^{\pm} t \pm \frac{x}{\lambda})} \\
+&= e^{i( \omega^{\pm} t \pm k x)}.
+\end{align*}
+$$
+
+This complex-valued function satisfies Schrödinger's partial differential equation:
 
 $$
 i\hbar \frac{\partial}{\partial t}\,\psi(x,t)
@@ -94,3 +90,5 @@ $$
 $$
 
 represents the energy that drives the spacetime evolution of the system.
+
+{% include embed/youtube.html id='oBbBVmjZwFA' %}
