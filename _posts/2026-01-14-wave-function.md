@@ -37,7 +37,9 @@ $$
 \psi(S) = e^{i 2\pi \frac{S}{h}}.
 $$
 
-{% include embed/youtube.html id='lhciU6AqrNM' %}
+> Quantum Mechanics Reimagined (`kinesin` = `ant` = `any step motor`)
+{: .prompt-info }
+{% include embed/youtube.html id='WXTKZUhPcDA' %}
 
 The temporal evolution of the system can be expressed as
 
@@ -64,6 +66,7 @@ where the wavenumber $k= \frac{2\pi}{\lambda}$ corresponds to the spatial freque
 Combining two equations yields the wave function that describes the spacetime evolution of the system:
 
 $$
+
 \begin{align*}
 
 \psi^{\pm}(x,t) &= e^{\pm i 2\pi \cdot z}  \\
