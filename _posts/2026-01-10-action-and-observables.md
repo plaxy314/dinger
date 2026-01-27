@@ -9,8 +9,8 @@ math: true
 
 ## Natural Units of Time and Length
 To model the dynamics of ant-foraging systems such as 
-[2](/posts/self-organizing-intelligence/#fn:puzzle-1) and
-[3](/posts/self-organizing-intelligence/#fn:puzzle-2),
+[2]({{'/posts/self-organizing-intelligence/#fn:puzzle-1' | relative_url}}) and
+[3]({{'/posts/self-organizing-intelligence/#fn:puzzle-2' | relative_url}}),
 we focus on the fundamental unit of motion: the ant step. Each ant step is characterized by two parameters: its duration and its step length.
 
 Let $\tau$ denote the mean duration of a single ant step, and $\lambda$ the mean step length. For a given system—defined as a particular species of ants foraging in a stable thermal environment—both $\tau$ and $\lambda$ may be treated as constants. They are intrinsic properties of the species and the environment, and therefore serve as natural units of time and length for describing the system’s motion.
@@ -196,6 +196,6 @@ where $\hat{o}$ denotes the unit observable associated with the action $h$. Exam
 
 Because $\rho(x,t)$ is defined as a density of expected action events rather than a density of ants, an action path may be interpreted either as the trajectory of a single ant or as the collective path of a transported load. This definition remains valid even when ants stochastically enter or leave a given path. The probabilistic action density bridges microscopic events and macroscopic observables, providing a consistent description of the system’s dynamics across spatial and temporal scales.
 
-> Quantum Mechanics Reimagined (`ant` = `kinesin` = `action agent`)
+> Quantum Mechanics Reimagined (`ant` = `kinesin/step motor` = `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='uGQh19-jhXY' %}

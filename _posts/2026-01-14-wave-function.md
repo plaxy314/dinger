@@ -37,7 +37,7 @@ $$
 \psi(S) = e^{i 2\pi \frac{S}{h}}.
 $$
 
-> Quantum Mechanics Reimagined (`ant` = `kinesin` =  `action agent`)
+> Quantum Mechanics Reimagined (`ant` = `kinesin/step motor` =  `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='WXTKZUhPcDA' %}
 
