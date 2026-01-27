@@ -46,6 +46,8 @@ Now imagine scaling this network up. First, divide the arena into roughly 100 bi
 
 Our goal is to uncover the principles governing the dynamics of such systems and to understand their collective behavior through the lens of signal processing. Before turning to the technical discussion, readers may find it helpful to watch this introductory video, which provides a high-level overview of the ideas to be developed here.
 
+> Neural Network Redefined (`ant` = `ion channel/pump` =  `action agent`)
+{: .prompt-info }
 {% include embed/youtube.html id='q2VHfX8PyoU' %}
 
 [^deep-learning]: LeCun, Y., Bengio, Y., & Hinton, G. (2015). *Deep learning*. Nature, 521(7553), 436–444. [doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539)
