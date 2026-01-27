@@ -37,7 +37,7 @@ $$
 \psi(S) = e^{i 2\pi \frac{S}{h}}.
 $$
 
-> Quantum Mechanics Reimagined (`kinesin` = `ant` = `any step motor`)
+> Quantum Mechanics Reimagined (`ant` = `kinesin` =  `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='WXTKZUhPcDA' %}
 
@@ -94,4 +94,4 @@ $$
 
 represents the energy that drives the spacetime evolution of the system.
 
-{% include embed/youtube.html id='oBbBVmjZwFA' %}
+{% include embed/youtube.html id='nZhSoC_EbMw' %}

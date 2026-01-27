@@ -196,6 +196,6 @@ where $\hat{o}$ denotes the unit observable associated with the action $h$. Exam
 
 Because $\rho(x,t)$ is defined as a density of expected action events rather than a density of ants, an action path may be interpreted either as the trajectory of a single ant or as the collective path of a transported load. This definition remains valid even when ants stochastically enter or leave a given path. The probabilistic action density bridges microscopic events and macroscopic observables, providing a consistent description of the system’s dynamics across spatial and temporal scales.
 
-> Quantum Mechanics Reimagined (`kinesin` = `ant` = `any step motor`)
+> Quantum Mechanics Reimagined (`ant` = `kinesin` = `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='uGQh19-jhXY' %}

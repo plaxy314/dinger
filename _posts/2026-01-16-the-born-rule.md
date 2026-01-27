@@ -172,6 +172,6 @@ $$
 
 This formalism provides a unified description of quantum systems of arbitrary complexity.
 
-> Quantum Mechanics Reimagined (`ion channel/pump` = `ant` = `any step motor`)
+> Quantum Mechanics Reimagined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='7-Ge6N0Um2M' %}
