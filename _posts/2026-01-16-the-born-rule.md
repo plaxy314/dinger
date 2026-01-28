@@ -7,28 +7,26 @@ pin: false
 math: true
 ---
 
-The dynamics of an ant-foraging system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these two descriptions, it is necessary to realize that position $x$ and time $t$ are not independent variables. Instead, their evolution along a given path is constrained by the speed of the underlying agent,
+The evolution of an ant-foraging system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are linked by the speed of the action agent,
 
 $$
-c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau}.
+c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau},
 $$
 
-An action path is therefore parametrized by $s$, the cumulative action along that path:
+where $s$ denotes the number of steps along the path. These variables may be parameterized by a single spacetime variable $s$:
 
 $$
-x(s) = \frac{s}{h} \lambda, \quad
-t(s) = \frac{s}{h} \tau.
+x(s) = s \lambda, \quad
+t(s) = s \tau.
 $$
 
-Consider a small spacetime interval $\mathrm{d}s$. The amount of action accrued within the interval is given by
+By definition, the amount of action executed by an action agent within a small spacetime interval $\mathrm{d}s$ is given by
 
 $$
-\mathrm{d}P = \rho(x,t) \, \mathrm{d}s,
+\mathrm{d}P = \rho(x,t) \, \mathrm{d}s.
 $$
 
-which may be geometrically interpreted as the area under $\rho(x,t)$ over the spacetime interval $\mathrm{d}s$.
-
-Over the same spacetime interval, $\psi(x,t)$ evolves as a rotating vector tracing the unit circle in the complex plane. The area swept by the rotating vector is given geometrically by
+Over the same spacetime interval, $\psi(x,t)$ traces the unit circle in the complex plane. The area swept by the rotating vector is given by
 
 $$
 \mathrm{d}A = \frac{1}{2} |\psi| |d\psi|,
@@ -62,21 +60,21 @@ $$
 \mathrm{d} P = \frac{1}{i2\pi} \bar{\psi} \dot{\psi} \, \mathrm{d}s.
 $$
 
-Here, division by the imaginary unit $i$ rotates the complex product by $90^\circ$ clockwise. This operation transforms it to a real-valued quantity, allowing it to be interpreted as the signed action increment.
+Here, dividing $\bar{\psi} \dot{\psi}$ by the imaginary unit $i$ rotates the complex product by $90^\circ$ clockwise. This operation transforms the final result to a real-valued quantity, allowing it to be interpreted as the signed action increment.
 
 Comparing the two expressions for $\mathrm{d} P$, the action density and the wave function are thus related by
 
 $$
-\rho(x,t) = \frac{1}{i2\pi} \bar{\psi}(x,t) \dot{\psi}(x,t),
+\rho(x,t) = \frac{1}{i2\pi} \bar{\psi}(x,t) \dot{\psi}(x,t).
 $$
 
-Since the product $\bar{\psi} \dot{\psi}$ scales quadratically with the amplitude of $\psi$, the probability of observing an action event must be proportional to the squared magnitude of the associated complex amplitude:
+Because the product $\bar{\psi} \dot{\psi}$ scales quadratically with the amplitude of $\psi$, the probability of observing an action event must be proportional to the squared magnitude of the associated complex amplitude:
 
 $$
 P(x,t) \propto \rho(x,t) \propto \left|\psi(x,t)\right|^2.
 $$
 
-This relation is often referred to as the Born rule. It can be extended to systems with multiple ants, corresponding to the wave function
+This relation is often referred to as the Born rule and can be extended to systems containing any number of ants:
 
 $$
 \psi(x,t) = A \, e^{i(wt \pm k x)}, \quad A^2 \in \mathbb{Z^+},
@@ -84,39 +82,37 @@ $$
 
 where $A^2$ represents the number of ants in the system. 
 
-The Born rule provides the fundamental link between the abstract wave function and the observable action density.
-
 ## Superposition
 
-Imagine multiple species of ants foraging within the same environment. Each species, indexed by $n$, is associated with a characteristic action
+Imagine multiple species of ants foraging within the same thermal environment. Each species, indexed by $n$, is associated with a characteristic action
 
 $$
 h_n = E_n \, \tau_n,
 $$
 
-where $\tau_n$ denotes the species' mean step duration and $E_n$ the mean energy required for the species to complete a single step.
+where $\tau_n$ denotes the species' mean step duration and $E_n$ the mean energy required for ants of species $n$ to carry out one step.
 
-Each ant step $h_n$ arises from a series of biochemical reactions. Each biochemical reaction, in turn, consists of a sequence of electron transitions between discrete energy levels at the atomic level. Each transition is associated the absorption or emission of a photon, a fixed physical action quantifiable by Planck’s constant,
+Each ant step $h_n$ arises from a sequence of biochemical reactions within the ant’s body. These reactions themselves consist of a finite number of atomic-scale actions, such as electron transitions between discrete energy levels. Whenever an electron transitions between two energy levels, a photon is absorbed or emitted, a process associated with a fundamental unit of action, given by Planck’s constant:
 
 $$
 h_0 = 6.62607015 \times 10^{-34} \text{J} \cdot \text{s}.
 $$
 
-Therefore, the macroscopic action $h_n$ can be expressed as an integer multiple of this fundamental unit of action,
+Since the macroscopic action of a single ant step is built from many such discrete microscopic events, it can be expressed as an integer multiple of this fundamental unit:
 
 $$
 h_n =  n \, h_0, \quad n \in \mathbb{Z}^+.
 $$
 
-The execution of a single Planck's action $h_0$ defines a natural clock tick for the system. This internal clock runs at the fundamental frequency
+The execution of a unit action $h_0$ defines the fundamental frequency for a physical system,
 
 $$
 f_0 = \frac{1}{\tau_0},
 $$
 
-where $\tau_0$ is the mean time for the system to execute one unit Planck's action.
+where $\tau_0$ represents the mean time for the system to complete one Planck's action.
 
-An ant action $h_n$ can thus be associated with a pair of frequencies,
+The frequency of an ant action $h_n$ can then be expressed as an integer multiple of that fundamental frequency,
 
 $$
 f_n^{\pm} = \pm  \frac{h_n}{h_{0}} f_0 = \pm n f_0,
@@ -138,7 +134,7 @@ $$
 
 measures the spatial frequency of $h_n$.
 
-The spacetime evolution of a multi-species system can then be represented as the superposition of all possible sub-systems,
+The evolution of a multi-species system is represented by the superposition of all possible sub-systems,
 
 $$
 \psi(x,t) =  \sum_n c_n \psi_n(x,t),
@@ -170,7 +166,7 @@ $$
 P(x, t) = \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}}  \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \rho(x', t') \, \mathrm{d}x' \, \mathrm{d}t'.
 $$
 
-This formalism provides a unified description of quantum systems of arbitrary complexity.
+This provides a consistent framework for describing systems of arbitrary complexity.
 
 > Quantum Mechanics Reimagined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }

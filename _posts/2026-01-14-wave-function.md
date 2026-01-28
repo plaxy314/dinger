@@ -7,7 +7,7 @@ pin: false
 math: true
 ---
 
-The execution of the unit action $h$ along a given path may be represented by a rotating vector that traces the unit circle in the complex plane, using Euler's formula:
+The execution of the unit action $h$ along a given path can be represented by a point rotating around the unit circle in the complex plane, described by Euler’s formula:
 
 $$
 \psi(\theta) = e^{i \theta} = \cos\theta + i \sin\theta,
@@ -15,9 +15,9 @@ $$
 
 whre $e$ is the base of the natural logarithm and $i$ is the imaginary unit ($i^2=-1$).
 
-As the phase angle $\theta$ increases from $0$ to $+2\pi$, the complex vector $\psi(\theta)$ completes a full counterclockwise revolution. This motion models the execution of the action, denoted $h^+$, along the path in a chosen direction. Conversely, as $\theta$ decreases from $0$ to $-2\pi$, the vector completes a full rotation in reverse, corresponding the execution of the action in the opposite direction, denoted $h^-$.
+As the phase angle $\theta$ increases from $0$ to $+2\pi$, the complex vector $\psi(\theta)$ completes a full counterclockwise revolution. This motion models the execution of the forward action, denoted $h^+$. Conversely, as $\theta$ decreases from $0$ to $-2\pi$, the vector completes a full rotation in reverse, corresponding the execution of the action in the opposite direction, denoted $h^-$.
 
-In this representation, any periodic physical process can be modeled by a continuously rotating vector using the following identity:
+Using this representation, we can model any periodic physical process by mapping physical quantities onto geometric quantities on the unit circle in the complex plane,
 
 $$  
 z = \frac{\theta}{2\pi} = \frac{S}{h} = \frac{t}{\tau} = \frac{x}{\lambda},
@@ -94,4 +94,4 @@ $$
 
 represents the energy that drives the spacetime evolution of the system.
 
-{% include embed/youtube.html id='nZhSoC_EbMw' %}
+{% include embed/youtube.html id='I7c5DNziNeU' %}

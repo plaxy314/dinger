@@ -11,10 +11,10 @@ Recent advances in deep learning have produced intelligent systems capable of
 recognizing complex patterns, generating coherent text, and performing tasks
 once considered the exclusive domain of human cognition[^deep-learning].
 Despite their impressive performance, these systems differ fundamentally from
-biological intelligence in their reliance on large training datasets, lack of
+biological systems in their reliance on large training datasets, lack of
 grounding in the physical world, and absence of intrinsic goals or agency.
 
-By contrast, biological systems are self-organizing, with intelligence emerging
+Biological systems, by contrast, are self-organizing, with intelligence emerging
 spontaneously without central planning or explicit training. A striking example
 is the collective behavior of ants. 
 
@@ -36,15 +36,15 @@ the continuous transport of food across the gap.
 
 {% include embed/youtube.html id='zDHp-jV8p4g' %}
 
-Even when a curved path is already laid out for them, the ants do not settle. They continue to explore, seeking the most efficient route that minimizes the total effort of foraging—measured by the number of steps taken by all ants.
+Even when a curved path is already available, the ants do not simply follow it. They continue to explore, seeking routes that minimize the system's total foraging cost. 
 
-These ants exhibit a clear form of intelligence. They collectively develop situational awareness and problem-solving capabilities. In the experiment, individual ants may be replaced without disrupting the system's overall performance, indicating that the intelligence does **not** reside in the brain of any single ant, but rather emerges from their continuous interactions with one another and with the environment.
+The system exhibits a clear form of intelligence, characterized by collective situational awareness and problem-solving capabilities. In the experiment, individual ants may be replaced without disrupting the system's overall behavior, indicating that the intelligence does **not** reside in the brain of any individual ant, but rather emerges from their continuous interactions with one another and with the environment.
 
-The piano-movers puzzle implements a minimal neural network, where three chambers correspond to three neurons and the narrow openings between chambers function as synapses, allowing action signals (i.e., the transport of a load) to propagate from one chamber to the next. Each chamber exists in one of two states: active when it contains a load, and inactive when it is empty. A chamber becomes active through the coordinated actions of many ants, much like how an action potential is triggered in a biological neuron through the synchronized activities of ion channels. In this neural network, the chamber open to the food serves as the input layer, while the chamber near the nest serves as the output layer.
+We argue that the piano-movers puzzle effectively implements a minimal neural network, in which three chambers represent three neurons and the narrow openings between chambers correspond to synapses, regulating the transmission of action signals—that is, the transport of a load—from one chamber to the next. In this network, the chamber open to the food serves as the input layer, while the chamber near the nest serves as the output layer. Each chamber exists in one of two states: active when it contains a load, and inactive when it is empty. A chamber becomes active through the coordinated actions of many ants, analogous to how synchronized ion-channel activity triggers an action potential in a biological neuron.
 
-Now imagine scaling this network up. First, divide the arena into roughly 100 billion microscopic cells, each connected to 1,000–10,000 neighboring cells. Then, replace the ants within each cell with millions of molecular machines—ion channels and pumps, neurotransmitter transporters and receptors, and other membrane proteins. These molecular machines are in constant motion, continuously interacting with their environment and transporting vast numbers of ions, neurotransmitters, and signaling molecules across cell membranes. Together, they form a vast signal-transduction network, comparable in the scale to the human brain.
+Now imagine scaling this network up. First, partition the arena into approximately 100 billion microscopic cells, each with 1,000–10,000 synaptic connections to their neighbors. Next, replace the ants in each cell with millions of ion channels/pumps, neurotransmitter transporters/receptors, and other membrane proteins. These molecular machines move around constantly, busy transporting ions, neurotransmitters, and signaling molecules across and between cell membranes. Together, they form a vast signal-transduction network, comparable in scale and complexity to the human brain.
 
-Our goal is to uncover the principles governing the dynamics of such systems and to understand their collective behavior through the lens of signal processing. Before turning to the technical discussion, readers may find it helpful to watch this introductory video, which provides a high-level overview of the ideas to be developed here.
+Our goal is to identify the physical principles that govern the dynamics of such systems, as well as the mathematical foundation underlying their remarkable information-processing capabilities. However, formalism is meaningful only when grounded in solid conceptual understanding. To build this conceptual framework, we begin by examining how physical neural networks operate, developing the necessary intuition that will guide subsequent, more quantitative analysis.
 
 > Neural Network Redefined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }
