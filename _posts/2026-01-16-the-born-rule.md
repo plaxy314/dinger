@@ -7,13 +7,15 @@ pin: false
 math: true
 ---
 
-The evolution of an ant-foraging system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are linked by the speed of the action agent,
+The evolution of an ant-foraging system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are constrained by the speed of the action agent,
 
 $$
 c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau},
 $$
 
-where $s$ denotes the number of steps along the path. These variables may be parameterized by a single spacetime variable $s$:
+where $s$ denotes the number of steps along the path. 
+
+Given a stable environmet, the speed $c$ is constant. $x$ and $t$ are thus parameterized by a single spacetime variable $s$:
 
 $$
 x(s) = s \lambda, \quad
@@ -60,7 +62,7 @@ $$
 \mathrm{d} P = \frac{1}{i2\pi} \bar{\psi} \dot{\psi} \, \mathrm{d}s.
 $$
 
-Here, dividing $\bar{\psi} \dot{\psi}$ by the imaginary unit $i$ rotates the complex product by $90^\circ$ clockwise. This operation transforms the final result to a real-valued quantity, allowing it to be interpreted as the signed action increment.
+Here, the factor $\frac{1}{i}$ corresponds to a $-\frac{\pi}{2}$ rotation in the complex plane. This rotation converts the complex product into a real-valued quantity that can be interpreted as a signed action increment.
 
 Comparing the two expressions for $\mathrm{d} P$, the action density and the wave function are thus related by
 
@@ -134,7 +136,7 @@ $$
 
 measures the spatial frequency of $h_n$.
 
-The evolution of a multi-species system is represented by the superposition of all possible sub-systems,
+The evolution of a multi-species system can be represented by the superposition of all possible sub-systems,
 
 $$
 \psi(x,t) =  \sum_n c_n \psi_n(x,t),
@@ -166,7 +168,7 @@ $$
 P(x, t) = \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}}  \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \rho(x', t') \, \mathrm{d}x' \, \mathrm{d}t'.
 $$
 
-This provides a consistent framework for describing systems of arbitrary complexity.
+This provides a unified and consistent framework for describing the dynamics of systems of arbitrary complexity.
 
 > Quantum Mechanics Reimagined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }
