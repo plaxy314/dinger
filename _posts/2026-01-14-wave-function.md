@@ -37,13 +37,13 @@ $$
 \psi(S) = e^{i 2\pi \frac{S}{h}}.
 $$
 
-This expression is the fundamental building block in Feynman's path-integral formulation of quantum mechanics.
+This equation plays an essential role in Feynman's path integral formulation of quantum mechanics.
 
 > Quantum Mechanics Reimagined (`ant` = `kinesin/step motor` =  `action agent`)
 {: .prompt-info }
 {% include embed/youtube.html id='WXTKZUhPcDA' %}
 
-The temporal evolution of the system is expressed as
+The temporal evolution of the system can be expressed as
 
 $$
 \psi(t) = e^{\pm i 2\pi \frac{t}{\tau}},
@@ -55,7 +55,7 @@ $$
 \psi(t) = e^{i2\pi f_{\pm} t} = e^{i \omega_{\pm} t},
 $$
 
-where $f_{\pm} = \pm \frac{1}{\tau}$ correspond to two opposite directions, and $\omega_{\pm} = 2\pi f_{\pm}$ is the associated angular frequency.
+where $f_{\pm} = \pm \frac{1}{\tau}$ correspond to two opposite directions, and $\omega_{\pm} = 2\pi f_{\pm}$ are the associated angular frequencies.
 
 Space, by contrast, is bidirectional. The signs of $x$ (or of a displacement $\Delta x$) naturally represent two opposite directions. The spatial evolution of the system is thus written as
 
@@ -71,9 +71,9 @@ $$
 
 \begin{align*}
 
-\psi(x,t) &= e^{\pm i 2\pi \cdot z}  \\
-&= e^{\pm i2\pi(f t \pm \frac{x}{\lambda})} \\
-&= e^{\pm i( \omega t \pm k x)}.
+\psi(x,t) &= e^{i 2\pi (\frac{t}{\tau} \pm \frac{x}{\lambda})}  \\
+ &= e^{i2\pi(f t \pm \frac{x}{\lambda})} \\
+ &= e^{i( \omega t \pm k x)}.
 \end{align*}
 $$
 
