@@ -7,7 +7,7 @@ pin: false
 math: true
 ---
 
-The evolution of an ant-foraging system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are constrained by the speed of the action agent,
+The evolution of a quantum system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are constrained by the speed of the action agent,
 
 $$
 c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau},
@@ -86,7 +86,7 @@ where $A^2$ represents the number of ants in the system.
 
 ## Superposition
 
-Imagine multiple species of ants foraging within the same thermal environment. Each species, indexed by $n$, is associated with a characteristic action
+Imagine multiple species of ants foraging within the same environment. Each species, indexed by $n$, is associated with a characteristic action
 
 $$
 h_n = E_n \, \tau_n,
@@ -162,13 +162,13 @@ $$
 \rho(x,t) = \frac{1}{i2\pi} \bar{\psi}(x,t) \dot{\psi}(x,t).
 $$
 
-Integrating this density over a finite spacetime region produces the expected number of net actions observable within that region,
+Integrating the action density over a finite spacetime region produces the expected number of observable (net) actions within that region,
 
 $$
 P(x, t) = \int_{t-\frac{\Delta t}{2}}^{t+\frac{\Delta t}{2}}  \int_{x-\frac{\Delta x}{2}}^{x+\frac{\Delta x}{2}} \rho(x', t') \, \mathrm{d}x' \, \mathrm{d}t'.
 $$
 
-This provides a unified and consistent framework for describing the dynamics of systems of arbitrary complexity.
+This provides a unified framework for modeling systems of arbitrary complexity.
 
 > Quantum Mechanics Reimagined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }
