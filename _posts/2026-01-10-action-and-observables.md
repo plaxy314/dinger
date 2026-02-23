@@ -72,7 +72,7 @@ where
 $$
 \hat{\mathbf{v}}_{+} \; \text{and} \; \hat{\mathbf{v}}_{-} = - \hat{\mathbf{v}}_{+}
 $$
-are unit vectors pointing in opposite directions.
+are the unit vectors pointing in opposite directions.
 
 This highlights a fundamental difference between scalar and vector quantities: observables such as time and energy are scalars: their quantities increase monotonically as the system evolves. The cumulative action therefore serves as a natural clock for tracking the system's evolution.
 
