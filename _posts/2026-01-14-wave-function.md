@@ -15,6 +15,10 @@ $$
 
 where $e$ is the base of the natural logarithm and $i$ is the imaginary unit ($i^2=-1$).
 
+> Quantum Mechanics Reimagined (`ant` = `kinesin/step motor` =  `action agent`)
+{: .prompt-info }
+{% include embed/youtube.html id='WXTKZUhPcDA' %}
+
 As the phase angle $\theta$ increases from $0$ to $+2\pi$, the complex vector $\psi(\theta)$ completes a full counterclockwise revolution. This motion represents the execution of the action $h^+$. Conversely, as $\theta$ decreases from $0$ to $-2\pi$, the vector completes a full rotation in reverse, corresponding the execution of the counter-action $h^-$.
 
 Any periodic physical process can therefore be mapped to motion in the complex plane using the identity,
@@ -38,10 +42,6 @@ $$
 $$
 
 This equation plays an essential role in Feynman's path integral formulation of quantum mechanics.
-
-> Quantum Mechanics Reimagined (`ant` = `kinesin/step motor` =  `action agent`)
-{: .prompt-info }
-{% include embed/youtube.html id='WXTKZUhPcDA' %}
 
 The temporal evolution of the system can be expressed as
 
