@@ -19,7 +19,7 @@ spontaneously without central planning or explicit training. A striking example 
 
 {% include embed/youtube.html id='3-98z00A4S8' %}
 
-The video above presents a classical "piano-movers" puzzle[^puzzle-1]. The arena is divided into three chambers connected by two narrow openings. A T-shaped load, designed to resemble food, is initially placed in the leftmost chamber. Through coordinated pushing, pulling, and rotational maneuvers, the ants negotiate the spatial constraints and deliver the load to the chamber adjacent to the nest on the right.
+The video above shows a classical "piano-movers" puzzle[^puzzle-1]. The arena is divided into three chambers connected by two narrow openings. A T-shaped load, designed to resemble food, is initially placed in the leftmost chamber. Through coordinated pushing, pulling, and rotational maneuvers, the ants negotiate the spatial constraints and deliver the load to the chamber adjacent to the nest on the right.
 
 The puzzle below [^puzzle-2] introduces a more challenging configuration. The arena is again divided into three sections, but the central section is a gap too wide for any individual ant to cross. Remarkably, the ants discover a creative
 solution: they link their bodies together to form a living bridge, allowing
@@ -27,19 +27,19 @@ the continuous transport of food across the gap.
 
 {% include embed/youtube.html id='V9aB8963rwM' %}
 
-Even when a curved path is provided by default, the ants are unsatisfied with this suboptimal solution. They continue to explore, favoring routes that reduce the system’s overall foraging cost.
+Even when a curved path is provided by default, the system does not settle for this suboptimal path. Instead, it continues to evolve, gravitating toward the least action path that minimizes the system's overall foraging cost.
 
 {% include embed/youtube.html id='zDHp-jV8p4g' %}
 
 The ant-foraging systems exhibit a clear form of intelligence, characterized by collective situational awareness and problem-solving capabilities. In the experiment, individual ants can be replaced without disrupting the system's overall performance, indicating that the intelligence does NOT reside in the brain of any single ant, but rather emerges from their continuous interactions with one another and with the environment.
 
-A close parallel can be drawn between the "piano-movers" puzzle[^puzzle-1] and biological neural network, with three chambers corresponding to three neurons. Each chamber exists in one of two possible states: active when it contains a load and inactive when it is empty. A chamber becomes activated through the coordinated actions of many ants, analogous to how synchronized ion-channel activity triggers an action potential in a biological neuron.
+A close parallel can be drawn between the "piano-movers" puzzle[^puzzle-1] and a biological neural network, with the three chambers corresponding to three neurons. with the three chambers representing three neurons. Each chamber, like a neuron, can exist in one of two possible states: active when it contains a load and inactive when it is empty. A chamber becomes activated through the coordinated actions of many ants, analogous to how synchronized ion-channel activity triggers an action potential in a biological neuron.
 
-The narrow openings between chambers correspond to synapses that regulate the transmission of action signals. The leftmost chamber, open to the food, serves as the input layer, while the rightmost chamber near the nest serves as the output layer. The network transforms an input signal into an output signal by timeshifting and attenuating it as the signal passes through the intermediate layer. 
+The narrow openings between chambers function like synapses that regulate the transmission of action signals. The leftmost chamber, open to the food, serves as the input layer, while the rightmost chamber near the nest serves as the output layer. This neural network transforms an input signal into an output signal by timeshifting and attenuating it as the action signal passes through the intermediate layer. 
 
-Now imagine scaling this network up. First, partition the arena into roughly 100 billion microscopic cells separated by ultrathin membranes, each connected to 1,000–10,000 neighbors. Next, replace the ants in each cell with millions of ion channels and pumps, neurotransmitter transporters and receptors, and other membrane proteins. These molecular machines are in constant motion, busy transporting ions, neurotransmitters, and signaling molecules through this vast 3D signal transduction network—much like ants tirelessly foraging for food in a complex environment.
+Now imagine scaling this network up roughly 100 billion times. First, partition the arena into microscopic cells separated by ultrathin membranes, each connected to about 1,000–10,000 neighboring cells. Next, replace the ants in each cell with millions of ion channels and pumps, neurotransmitter transporters and receptors, and other membrane proteins. These molecular machines move around in response to electrochemical signals, much like ants foraging for food. They actively transport ions, neurotransmitters, and signaling molecules across this vast 3D membrane structure, forming a complex signal transduction network. While individual molecular interactions may appear random, together they produce remarkably coherent large-scale behavior.
 
-While individual molecular interactions may appear random, together they produce remarkably coherent large-scale behavior. Our goal is to identify the physical laws that governs these dynamics and the mathematical basis for neural computation. Before turning to formal analysis, it is helpful to first develop an intuitive understanding of how such systems operate. The following video illustrates how simple, everyday objects can spontaneously organize to perform sophisticated computations.
+Our goal is to identify the physical laws governing these dynamics and the mathematical foundations underlying consciousness. Before turning to formal analysis, it is useful to first develop an intuitive understanding of how such systems operate. The following video demonstrates how simple, everyday objects can spontaneously organize to perform surprisingly sophisticated computations.
 
 > Neural Network Redefined (`ant` = `ion channel/pump` =  `action agent`)
 {: .prompt-info }

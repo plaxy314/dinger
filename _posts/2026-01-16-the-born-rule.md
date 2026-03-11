@@ -7,7 +7,7 @@ pin: false
 math: true
 ---
 
-The evolution of a quantum system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are constrained by the speed of the action agent,
+As discussed previously, the evolution of a quantum system may be described using two complementary methods: the real-valued action density $\rho(x,t)$ and the complex-valued wave function $\psi(x,t)$. To relate these descriptions, it is important to recognize that position $x$ and time $t$ are not independent variables. They are constrained by the speed of the action agent,
 
 $$
 c = \frac{x}{t} = \frac{s \cdot \lambda}{s \cdot \tau} = \frac{\lambda}{\tau},
@@ -62,7 +62,7 @@ $$
 \mathrm{d} P = \frac{1}{i2\pi} \bar{\psi} \dot{\psi} \, \mathrm{d}s.
 $$
 
-Here, the factor $\frac{1}{i}$ corresponds to a $-\frac{\pi}{2}$ rotation in the complex plane. This rotation converts the complex product into a real-valued quantity that can be interpreted as a signed action increment.
+Here, the factor $1/i = -i$ effectively rotates the complex product by $−\pi/2$ in the complex plane. This converts the complex number into a real-valued quantity that can be interpreted as a signed action increment.
 
 Comparing the two expressions for $\mathrm{d} P$, the action density and the wave function are thus related by
 
@@ -70,19 +70,19 @@ $$
 \rho(x,t) = \frac{1}{i2\pi} \bar{\psi}(x,t) \dot{\psi}(x,t).
 $$
 
-Because the product $\bar{\psi} \dot{\psi}$ scales quadratically with the amplitude of $\psi$, the probability of observing an action event must be proportional to the squared magnitude of the associated complex amplitude:
+The product $\bar{\psi} \dot{\psi}$ scales quadratically with the amplitude of $\psi$. Te probability of observing an action event is therefore proportional to the squared magnitude of the associated complex amplitude:
 
 $$
 P(x,t) \propto \rho(x,t) \propto \left|\psi(x,t)\right|^2.
 $$
 
-This relation is often referred to as the Born rule and can be extended to systems containing any number of ants:
+This relation is often referred to as the Born rule. We can extend the rule to model a system with any number of action agents (i.e., ants):
 
 $$
 \psi(x,t) = A \, e^{i(wt \pm k x)}, \quad A^2 \in \mathbb{Z^+},
 $$
 
-where $A^2$ represents the number of ants in the system. 
+where $A^2$ represents the number of agents in the system. 
 
 ## Superposition
 
